@@ -1,5 +1,19 @@
-.products {
+@media (min-width: 768px) {
+    .row-cols-md-3 > * {
+        flex: 0 0 auto;
+        width: 33.33333%;
+    }
+}
+
+.card-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        padding: 3%;
+    }
 }

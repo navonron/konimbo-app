@@ -1,0 +1,14 @@
+.mask {
+    height: 300px;
+    width: 100%;
+    place-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+}
+
+.mask h2 {
+    font-family: initial;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #666;
+}
